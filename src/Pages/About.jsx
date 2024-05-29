@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import './About.css'
-import bgimg from "./about-hero.png"
+import bgimg from "../about-hero.png"
 
 export default function About(){
 

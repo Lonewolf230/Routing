@@ -36,13 +36,24 @@
     font-weight: 500;
     border: none;
     border-radius: 5px;
-    background-color: black;
-    color: #4D4D4D;
+    background-color: burlywood;
+    color: white;
     transition: 200ms all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+
+.van-list-filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.van-list-filter-buttons > a {
+    margin-right: 15px;
+}
+
 .van-type:hover {
-    color: white;
+    color: #FFEAD0;
 }
 
 .van-type:focus {
@@ -50,19 +61,19 @@
 }
 
 .van-type.selected {
-    color: white;
+    color: #FFEAD0;
 }
 
 .van-type.simple:hover, .van-type.simple.selected {
-    background-color: black;
+    background-color: #E17654;
 }
 
 .van-type.rugged:hover, .van-type.rugged.selected {
-    background-color: black;
+    background-color: #115E59;
 }
 
 .van-type.luxury:hover, .van-type.luxury.selected {
-    background-color: black;
+    background-color: #161616;
 }
 
 .van-type.clear-filters {

@@ -9,6 +9,14 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 
 //add firebase setup and config
+const firebaseConfig = {
+    apiKey: "AIzaSyCOBVMu83_MDdX_Dhr0U5BBqCHbsKSw5z0",
+    authDomain: "vanlife-5386c.firebaseapp.com",
+    projectId: "vanlife-5386c",
+    storageBucket: "vanlife-5386c.appspot.com",
+    messagingSenderId: "112280198502",
+    appId: "1:112280198502:web:7c54fdc3ddf82e51193ca7"
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
